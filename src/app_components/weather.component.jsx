@@ -4,7 +4,7 @@ const Weather = props => {
     return (
         <div className="card">
             <div className="card-body">
-            <h1 className="card-title">{props.city}, {props.country}</h1>
+                <h1 className="card-title">{props.city}, {props.country}</h1>
                 <h5 className="card-text text-muted">{props.description}</h5>
                 <h1 className="card-text py-2 d-flex align-items-center justify-content-around">
                     <img src={props.icon} />
